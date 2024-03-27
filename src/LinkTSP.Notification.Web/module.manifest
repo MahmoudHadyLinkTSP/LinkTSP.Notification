@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<module>
+  <id>LinkTSP.Notification</id>
+  <version>3.200.0</version>
+  <version-tag></version-tag>
+
+  <platformVersion>3.293.14</platformVersion>
+  <dependencies>
+    <!--<dependency id="VirtoCommerce.Core" version="3.211.0" />-->
+  </dependencies>
+
+  <title>LinkTSP Notification module</title>
+  <description>LinkTSP Notification module</description>
+
+  <authors>
+    <author>Back End</author>
+  </authors>
+  <owners>
+    <owner>LinkTSP</owner>
+  </owners>
+
+  <projectUrl>https://github.com/LinkTSP/vc-module-notification</projectUrl>
+  <iconUrl>Modules/$(LinkTSP.Notification)/Content/logo.png</iconUrl>
+  <requireLicenseAcceptance>false</requireLicenseAcceptance>
+
+  <assemblyFile>LinkTSP.Notification.Web.dll</assemblyFile>
+  <moduleType>LinkTSP.Notification.Web.Module, LinkTSP.Notification.Web</moduleType>
+
+  <releaseNotes>First version.</releaseNotes>
+  <copyright>Copyright © 2024 LinkTSP. All rights reserved</copyright>
+  <tags>extension module</tags>
+  <useFullTypeNameInSwagger>false</useFullTypeNameInSwagger>
+</module>

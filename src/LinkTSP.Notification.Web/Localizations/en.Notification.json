@@ -1,0 +1,28 @@
+{
+  "Notification": {
+    "blades": {
+      "hello-world": {
+        "title": "Hello world blade"
+      }
+    }
+  },
+  "permissions": {
+    "Notification:access": "Open Notification menu",
+    "Notification:create": "Create Notification related data",
+    "Notification:read": "View Notification related data",
+    "Notification:update": "Update Notification related data",
+    "Notification:delete": "Delete Notification related data"
+  },
+  "settings": {
+    "Notification": {
+      "NotificationEnabled": {
+        "title": "Notification Enabled",
+        "description": "Notification Enabled setting"
+      },
+      "NotificationPassword": {
+        "title": "Notification Password",
+        "description": "Notification Password setting"
+      }
+    }
+  }
+}
